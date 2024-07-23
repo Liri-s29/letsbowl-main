@@ -56,7 +56,7 @@ const AboutSection = () => {
 										<Text text="- Biggest bowling alley in chennai with six tracks. " />
 										<Text text="- Three Billards table. " />
 										<Text text="- Roof top football turf for the ultimate experience. " />
-										<Text text="- Cafecurry, a multi cusine game themed cafe. " />
+										<Text text="- By the alley the Bowling Cafe, a multi cusine game themed cafe. " />
 										<Text text="- Simulation cricket to train yourself." />
 										<Text text="- Kidszone, the best place to spend time with you kids." />
 									</Stack>
@@ -65,7 +65,7 @@ const AboutSection = () => {
 						</Grid>
 						<TextDark
 							text="Lets bowl is a game center which not only has the game arenas also different restaurants all in the same
-							place, we have a multicuisine restaurant ( veg and non veg ) - Cafe Curry, pure veg restaurant - Lets Dine, Juice
+							place, we have a multicuisine restaurant ( veg and non veg ) - By the alley the Bowling Cafe, pure veg restaurant - Lets Dine, Juice
 							shop hangout, Sweets and Chats ajnabee."
 						/>
 					</Stack>

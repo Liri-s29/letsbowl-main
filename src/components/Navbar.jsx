@@ -74,7 +74,7 @@ const Navbar = () => {
 						<MenuButton page="ABOUT" url="/about" menu={menu} />
 						<MenuButton page="GALLERY" url="/gallery" menu={menu} />
 						<MenuButton page="CONTACT" scroll={true} url="/gallery" menu={menu} />
-						<Button
+						{/* <Button
 							sx={{
 								my: 2,
 								color: "white",
@@ -88,7 +88,7 @@ const Navbar = () => {
 							}}
 						>
 							Book Now
-						</Button>
+						</Button> */}
 						<Tooltip title="Open Menu">
 							<IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
 								<LogoMenu menu={menu} />
@@ -139,13 +139,13 @@ const Navbar = () => {
 							<LogoMenuItem page="GALLERY" url="/gallery" />
 
 							<LogoMenuItem page="CONTACT" scroll={true} />
-							<LogoMenuItem
+							{/* <LogoMenuItem
 								page="BOOK NOW"
 								url="/bookings"
 								sx={{
 									display: { xs: "block", md: "none" },
 								}}
-							/>
+							/> */}
 						</Menu>
 					</Stack>
 				</Stack>

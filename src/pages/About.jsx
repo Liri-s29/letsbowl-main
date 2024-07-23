@@ -22,7 +22,7 @@ const About = () => {
 				<title>Lets Bowl | About</title>
 				<meta
 					name="description"
-					content="Lets bowl is a game center which not only has the game arenas also different restaurants all in the same place, we have a multicuisine restaurant ( veg and non veg ) - Cafe Curry, pure veg restaurant - Lets Dine, Juice shop hangout, Sweets and Chats ajnabee"
+					content="Lets bowl is a game center which not only has the game arenas also different restaurants all in the same place, we have a multicuisine restaurant ( veg and non veg ) - By the alley the Bowling Cafe, pure veg restaurant - Lets Dine, Juice shop hangout, Sweets and Chats ajnabee"
 				/>
 				<meta name="keywords" content="Bowling, Lets Bowl, about" />
 			</Helmet>

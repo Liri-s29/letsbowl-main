@@ -15,7 +15,11 @@ const CategoryTitle = (props) => {
 	}, []);
 
 	async function getAssets() {
-		const asset = await getCategory(_.upperFirst(props.title));
+		let asset = await getCategory(_.upperFirst(props.title));
+		if(asset.category === "Cafe_curry") {
+			asset.category = "By the alley the Bowling Cafe";
+		}
+	
 		setCategory(asset);
 		setLoading(false);
 	}

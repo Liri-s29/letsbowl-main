@@ -31,7 +31,6 @@ const Category = () => {
 
 	function CategoryVerify() {
 		const categoryList = ["Bowling", "Billiards", "Turf", "Machine_cricket", "Cafe_curry", "Kidzone"];
-		console.log(title);
 		if (!categoryList.includes(title)) {
 			navigate("/");
 		}

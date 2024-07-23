@@ -47,7 +47,7 @@ const Category = ({ data, direction }) => {
 										lineHeight: { xs: "5rem", md: "6rem" },
 									}}
 								>
-									{_.toUpper(_.replace(data.category, "_", " "))}
+									{_.toUpper(_.replace(data.category === "Cafe_curry" ? "By the alley the Bowling Cafe" : data.category, "_", " "))}
 								</Typography>
 								<Typography sx={{ fontSize: "1.5rem", fontFamily: "Arial, sans-serif" }}>{data.description}</Typography>
 								<Button
